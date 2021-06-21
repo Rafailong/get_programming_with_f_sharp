@@ -38,8 +38,8 @@ printfn "Car: %A" car
 
 // copy-and-update syntax
 // simliar to Scala' case class copy
-let car =
+let car' =
     { car with
           NumberOfDoors = 3
           Year = 2021 }
-printfn "Car (shadowing) %A" car
+printfn "Car (shadowing) %A" car'
